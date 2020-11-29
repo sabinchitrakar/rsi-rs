@@ -1,0 +1,16 @@
+[package]
+name = "rsi-rs"
+version = "0.1.0"
+authors = ["immortal infidel <immortal.infidel@gmail.com>"]
+edition = "2018"
+license="MIT"
+description="Relative Strength Index (RSI) In Rust"
+repository="https://github.com/immortalinfidel/rsi-rs"
+homepage="https://github.com/immortalinfidel/rsi-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ta-common = { version="0.1.2"}
+wilders-rs = { version="0.1.1"}
+sma-rs = { version="0.1.1"}
